@@ -1,0 +1,39 @@
+# [1] 자바 실행 및 배포 파일 (전부 차단)
+*.war
+*.jar
+*.class
+bin/
+out/
+target/
+
+# [2] 설정 및 매니페스트 파일 (전부 차단)
+*.mf
+MANIFEST.MF
+.metadata/
+.settings/
+.project
+.classpath
+.factorypath
+
+# [3] 문서 및 기타 잡동사니 (전부 차단)
+*.hwp
+*.pdf
+*.docx
+*.xlsx
+*.pptx
+*.txt
+*.log
+
+# [4] 이미지 및 압축 파일 (전부 차단)
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.zip
+*.7z
+*.rar
+
+# [5] 운영체제 임시 파일 (전부 차단)
+.DS_Store
+Thumbs.db
+desktop.ini
